@@ -1,0 +1,77 @@
+a{
+	outline:0 !important;	
+}
+.navbar-light {
+	background-color:transparent!important;
+	font-size:14px;	
+}
+.navbar-light .navbar-nav .nav-link{
+	color:#000000;	
+	font-weight:600;
+	text-transform: uppercase;
+}
+
+
+.navbar-light .navbar-nav .active .nav-link{
+	background-color:transparent;
+	color:#fff;
+}
+
+.navbar-light .navbar-nav .show > .nav-link{
+	color: #fff;	
+}
+.navbar-light .navbar-nav .show > .nav-link:focus,
+.navbar-light .navbar-nav .show > .nav-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+
+
+
+.navbar-light .navbar-toggler{
+	text-decoration: none;
+	background-color: transparent;
+	border:0px solid #000;
+}
+.navbar-light .navbar-toggler:hover,
+.navbar-light .navbar-toggler:focus
+{
+    background-color: transparent;
+	cursor:pointer;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: transparent;
+}
+
+.navbar-light .navbar-toggle:hover .icon-bar {
+    background-color: #8B2588;
+	cursor:pointer;
+}
+.navbar-light .navbar-brand {
+	color:#000000;		
+	height: auto;
+	text-transform: uppercase;
+}
+.navbar-light .navbar-brand:hover {
+ 	color:#aaa;
+}
+.navbar-light .navbar-brand img{
+	
+}
+.carousel-caption{
+	top:30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

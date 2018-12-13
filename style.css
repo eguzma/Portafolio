@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi|Prosto+One');
+
+header {
+	background:#fff;
+	background-color: #3D3939;
+	}
+
+
+
+#sec-foto{
+	background-image: url(img/technology.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding: 200px 0;
+	color: #FFFFFF;	
+	font: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+.letra-pridi{
+	font-family: 'Pridi', serif;
+	text-align: center;
+	font-size: 70px;
+}
+#sec-foto .info-foto{
+	font: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace
+}
+
+#sec-foto .h1{
+	text-align: center;
+}
+
+#sec-request{
+	
+}
+
+
+
+#sec-newone{
+text-align: center;
+background-image: url(img/Fut.JPG);
+background-size: cover;
+background-position: center;
+padding: 150px 0;
+color: #FFFFFF;
+background-attachment: fixed;
+}
+
+#sec-newone h3{
+text-transform: uppercase;
+letter-spacing: 4px;
+font-weight: 600;
+font-size: 22px;
+}
+
+#sec-newone h5{
+font-size: 15px;
+font-style: italic;
+margin-top: 10px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#sec-newone .info-about{
+	background-color: rgba(0,0,0,0.64);
+}
+
+.icon-counter{
+	font-size: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#sec-servicios{
+	
+}
+
+#sec-cases {
+	background-color: #AFACAC;
+}
+
+.padre {
+	position: relative;
+}
+
+.hijo {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	bottom: 100%;
+}
+
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+
+.hijo h3{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.hijo h4{
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;	
+}
+
+#sec-request{
+	padding: 50px;
+	background: rgba(0,0,0,0.50)
+}
+#sec-request .info{
+	background-color:rgba(140,140,141,0.42)
+}
+
+
+	
+
+
